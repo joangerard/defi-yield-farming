@@ -52,7 +52,7 @@ def test_deposit_claim_withdraw(deploy_contracts, chain):
     print(token_farm.checkpoints(bob.address))
 
     assert pending_alice == expected_alice  # 3.5
-    assert pending_bob == expected_bob
+    assert pending_bob == expected_bob  # 8.25
 
     # Reclamar recompensas
     alice_before = dapp_token.balanceOf(alice.address)
