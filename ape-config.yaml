@@ -1,0 +1,12 @@
+name: yield-farming
+plugins:
+  - name: solidity
+    version: 0.8.5
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 5.4.0
+test:
+  mnemonic: test test test test test test test test test test test junk
+  number_of_accounts: 5
+  balance: 100_000 ETH
